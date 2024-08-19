@@ -52,7 +52,7 @@ if [ $choice == 1 ]; then
 		echo -e "\n"
 		echo -e "\n${green}Extracting ports...${reset}"
 		extractPorts AllPorts_TCP
-		ports=$(xlip -selection clipboard -o)
+		ports=$(xclip -selection clipboard -o)
 
 		echo -e "${yellow}[+] Applying a deeper scan...${reset}"
 		sudo nmap -p$ports -sCV $1 -oN targeted
