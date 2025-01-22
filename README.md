@@ -14,6 +14,6 @@ A network scanning tool using nmap
 
 `apt install xclip`
 
-`chmod +x networkscanner`
+`chmod +x scanner.sh`
 
-`sudo ./networkscanner`
+`sudo ./scanner.sh`
