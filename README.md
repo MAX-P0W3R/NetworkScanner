@@ -7,8 +7,13 @@ A network scanning tool using nmap
 ---
 ## Installation
 `sudo apt update -y`
+
 `git clone https://github.com/MAX-P0W3R/NetworkScanner.git`
+
 `cd NetworkScanner`
+
 `apt install xclip`
+
 `chmod +x networkscanner`
+
 `sudo ./networkscanner`
